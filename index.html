@@ -28,6 +28,14 @@
             }
         }
     </script>
+    <style>
+        .section-5-bg {
+            background-image: url(images/bg.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            /* opacity: .50; */
+        }
+    </style>
     <!-- font awesome cdn -->
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
       <script src="https://kit.fontawesome.com/efea1771c9.js" crossorigin="anonymous"></script> -->
@@ -209,10 +217,10 @@
         </section>
 
 
-<!-- section-2 starts -->
+        <!-- section-2 starts -->
         <section class="mt-24 bg-slate-100 max-h-max">
             <div class="sm:container sm:mx-auto lg:container lg:mx-auto">
-<!-- top-part-description -->
+                <!-- top-part-description -->
                 <div class="hero bg-base-200 ">
                     <div class="hero-content text-center">
                         <div class="max-w-md">
@@ -233,7 +241,7 @@
                         </div>
                     </div>
                 </div>
-<!--container- 4-cards- -->
+                <!--container- 4-cards- -->
                 <div class="flex flex-col lg:flex-row pb-24 mb-24 gap-6 justify-between align-center bg-slate-100 h ">
                     <!-- card-1-added -->
                     <div class="card card-compact bg-base-100 w-96 shadow-xl h-[220px]">
@@ -295,7 +303,7 @@
         </section>
 
 
-<!-- section-3 starts -->
+        <!-- section-3 starts -->
         <section>
             <!-- top-part-description -->
             <div class="hero bg-base-200 ">
@@ -321,14 +329,81 @@
         </section>
         <!-- section-4-unique starts -->
         <section></section>
+
+
         <!-- section-5 starts -->
-        <section></section>
+        <section class="section-5-bg border-spacing-3 border-[#FFFFFF]/100 border-4 border-white">
+            <div class="sm:container sm:mx-auto lg:container lg:mx-auto py-8 lg:py-24 ">
+                <!-- top-part-description -->
+                <div class="hero  ">
+                    <div class="hero-content text-center">
+                        <div class="max-w-md">
+                            <button class="btn btn-active bg-primary-green/20 border rounded-3xl text-base font-bold">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6">
+                                    <path fill-rule="evenodd"
+                                        d="M16.72 7.72a.75.75 0 0 1 1.06 0l3.75 3.75a.75.75 0 0 1 0 1.06l-3.75 3.75a.75.75 0 1 1-1.06-1.06l2.47-2.47H3a.75.75 0 0 1 0-1.5h16.19l-2.47-2.47a.75.75 0 0 1 0-1.06Z"
+                                        clip-rule="evenodd" />
+                                </svg> Lets's Connect
+                            </button>
+                            <h1 class=" text-4xl font-bold mt-4 mb-6 text-[#212121]">Let’s Discuss Next Project</h1>
+                            <p class=" font-medium text-base mb-8 text-[#494949]/100">
+                                The barn house captivates with its blend of rustic charm and modern sophistication,
+                                featuring weathered wood, sleek metal accents.
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- input-part -->
+                <form action="">
+                    <div class="text-xl font-medium lg:grid lg:grid-cols-2 lg:gap-6 mb-8 items-center justify-between">
+                        <div>
+                            <input type="text" placeholder="First Name*"
+                                class="input input-bordered w-full rounded-[64px]" />
+                        </div>
+                        <div class="">
+                            <input type="text" placeholder="Last Name*"
+                                class="input input-bordered w-full rounded-[64px] my-4 lg:my-0"  />
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Phone Number*"
+                                class="input input-bordered w-full rounded-[64px]" />
+                        </div>
+
+                        <div class="">
+                            <input type="text" placeholder="Email Number*"
+                                class="input input-bordered w-full rounded-[64px] my-4 lg:my-0" />
+                        </div>
+
+                       <div class="lg:col-span-2">
+                        <textarea placeholder="Write your message here "
+                        class="textarea textarea-bordered textarea-lg w-full rounded-[32px] mb-4  text-[#A0A0A0]/100"></textarea>
+                       </div>
+
+                        
+
+                        <div class="col-span-2 w-full">
+                            <a class="btn rounded-[32px] bg-primary-green ml-1 w-full">
+                                <span class="font-extrabold text-xl">Send Mail</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                                    class="size-6 rounded-full bg-[#1C1C1C] text-white p-1">
+                                    <path fill-rule="evenodd"
+                                        d="M8.25 3.75H19.5a.75.75 0 0 1 .75.75v11.25a.75.75 0 0 1-1.5 0V6.31L5.03 20.03a.75.75 0 0 1-1.06-1.06L17.69 5.25H8.25a.75.75 0 0 1 0-1.5Z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- footer-part starts -->
-    
-        <footer class="footer footer-center bg-[#1C1C1C]/100 p-10">
-            <div class="sm:container sm:mx-auto lg:container lg:mx-auto" >
+
+    <footer class="footer footer-center bg-[#1C1C1C]/100 p-10">
+        <div class="sm:container sm:mx-auto lg:container lg:mx-auto">
             <aside>
                 <a class="btn btn-ghost text-xl ">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
@@ -339,28 +414,29 @@
                     </svg>
                     <span class="text-xl lg:text-2xl font-extrabold text-[#E9E9E9]/100">Rinterio</span>
                 </a>
-              <p class="mt-4 text-lg font-bold text-[#737373]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
-                         </aside>
+                <p class="mt-4 text-lg font-bold text-[#737373]">The barn house captivates with its blend of rustic
+                    charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </aside>
             <nav>
-              <div class="grid grid-flow-row lg:grid-flow-col gap-4 text-[#E9E9E9]/100 text-lg font-medium my-12">
-                <a>
-                    Home
-                </a>
-                <a>
-                    Services
-                </a>
-                <a>
-                    Portfolio
-                </a>
-                <a>
-                    Blogs
-                </a>
-                <a>
-                    Contact Us
-                </a>
-                
-               
-              </div>
+                <div class="grid grid-flow-row lg:grid-flow-col gap-4 text-[#E9E9E9]/100 text-lg font-medium my-12">
+                    <a>
+                        Home
+                    </a>
+                    <a>
+                        Services
+                    </a>
+                    <a>
+                        Portfolio
+                    </a>
+                    <a>
+                        Blogs
+                    </a>
+                    <a>
+                        Contact Us
+                    </a>
+
+
+                </div>
             </nav>
             <div class="mx-auto mb-24">
                 <a class="btn rounded-[32px] bg-primary-green ml-1 w-[280px] lg:w-[210px]">
@@ -374,9 +450,9 @@
                 </a>
             </div>h
         </div>
-          </footer>
+    </footer>
 
-    
+
 </body>
 
 </html>
